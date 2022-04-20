@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MVP.View.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="80dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/btncolor"
+                android:padding="30dp"
+                android:text="AC"
+
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnbagi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/btncolor"
+                android:padding="30dp"
+                android:text="÷" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="7"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="8"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="9"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnPerkalian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/btncolor"
+                android:padding="30dp"
+                android:text="x" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="4"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="5"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="6"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnPengurangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/btncolor"
+                android:padding="30dp"
+                android:text="-"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="2"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="3"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnPertambahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/btncolor"
+                android:padding="30dp"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="0"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btntitik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCC"
+                android:padding="30dp"
+                android:text="."
+                android:textColor="@color/black" />
+
+
+            <Button
+                android:id="@+id/btnSamaDengan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/btncolor"
+                android:padding="30dp"
+                android:text="=" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
